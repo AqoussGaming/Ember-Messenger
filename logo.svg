@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#4A1416"/>
+      <stop offset="1" stop-color="#110A0B"/>
+    </radialGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF7A5C"/>
+      <stop offset="0.55" stop-color="#F23B3B"/>
+      <stop offset="1" stop-color="#C8102E"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="44" fill="url(#bg)"/>
+  <g transform="translate(30 30)">
+    <path fill="url(#flame)" fill-rule="evenodd" d="M52,6 C56,20 70,28 76,44 C82,60 78,78 66,88 C61,92 56,94 50,94 C36,94 22,84 22,66 C22,54 28,44 34,38 C34,46 37,52 42,55 C40,40 44,22 52,6 Z M50,54 C55,62 61,68 61,76 C61,83 56,87 50,87 C44,87 39,83 39,77 C39,69 46,63 50,54 Z"/>
+  </g>
+</svg>
